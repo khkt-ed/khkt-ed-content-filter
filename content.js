@@ -4,7 +4,7 @@ chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
     }
 });
 
-const banned_words = ["aloha", "!", ".", ":", "?"];
+const banned_words = ["trigger warning", "tw"];
 
 const checkBannedWords = text => {
     if (banned_words.filter(e => text.toLowerCase().includes(e.toLowerCase())).length > 0) {
