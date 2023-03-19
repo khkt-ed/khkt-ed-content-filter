@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "lmao",
-    "description": "lmao",
+    "name": "Content filter",
+    "description": "Giúp người dùng hạn chế truy cập những trang web có thể gây ảnh hưởng xấu đến sức khỏe tinh thần và rối loạn ăn uống.",
     "version": "1.0",
     "permissions": [
         "scripting",
